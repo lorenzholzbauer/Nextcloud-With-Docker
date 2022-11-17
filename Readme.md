@@ -93,7 +93,6 @@ server {
     return 404;
 }
 
-# server block for HTTPS secure connections
 server {
     listen [::]:443 ssl http2;
     listen 443 ssl http2;
